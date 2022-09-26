@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1B1934;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    max-width: 1440px;
+    margin: auto;
+}
+#logo{
+    width: 230px;
+}
+nav{
+    padding-top: 1rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    margin-right: 1rem;
+}
+a{
+    text-decoration: none;
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 20px 5px 5px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: #2A2748;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #fff;
+    list-style: none;
+}
+#avatar{
+    border-radius: 50%;
+}
+.wallet{
+    border: none;
+    padding: 18px 36px;
+    font-size: 22px;
+    line-height: 26px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #BB4343 3.16%, #4256BB 173.39%);
+    color: white;
+    font-family:'Work Sans', sans-serif;
+    width: 400px;
+    text-align: center;
+}
+.explore{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #b3454c;
+    padding: 18px 36px;
+    border-radius: 30px;
+    border: 1px solid #b3454c;
+    width: 400px;
+    text-align: center;
+}
+.wallet:hover{
+    opacity: 0.5;
+}
+.explore:hover{
+    opacity: 0.5;
+}
+.wallet :active{
+    transform: translateY(5px);
+}
+.explore :active{
+    transform: translateY(5px);
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+}
+section div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 60vh;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: 3rem;
+}

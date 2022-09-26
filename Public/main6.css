@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: hanson;
+    src: url(./fonts/Hanson-Bold_28ef9370662e758bd08e61f45c3c69b8.otf);
+}
+body{
+    background: #1B1934;
+    max-width: 1440px;
+    margin: auto;
+}
+#logo{
+    width: 230px;
+}
+nav{
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    margin-right: 1rem;
+}
+a{
+    text-decoration: none;
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 20px 5px 5px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: #2A2748;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #fff;
+    list-style: none;
+}
+#avatar{
+    border-radius: 50%;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 3rem;
+    margin-left: 5rem;
+}
+h1{
+    font-family: Hanson;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 70px;
+    /* text-align: center; */
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 25px;
+    font-family: work sans;
+    margin-right: 1rem;
+    font-weight: 900;
+}
+input{
+    width: 600px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 22px;
+    background-color: #1B1934;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+p{
+    font-family: Work Sans;
+    /* text-align: center; */
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+}
+strong{
+    color: red;
+}
+.disclaimer{
+    font-size: 18px;
+    margin-top: 2rem;
+    font-style: italic;
+}
+#proceed{
+    background:  linear-gradient(180deg, #BB4343 3.16%, #4256BB 173.39%);
+    margin: auto;
+    margin-top: 2rem;
+}
+span{
+    text-transform: uppercase;
+}

@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1B1934;
+    max-width: 1440px;
+    margin: auto;
+}
+#logo{
+    width: 230px;
+}
+nav{
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    margin-right: 1rem;
+}
+a{
+    text-decoration: none;
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 20px 5px 5px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: #2A2748;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #fff;
+    list-style: none;
+}
+#avatar{
+    border-radius: 50%;
+}
+form{
+    margin-left: 15rem;
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 2rem;
+    margin-top: 3.5rem;
+}
+form h1{
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    background-color: #1B1934;
+    width: 100%;
+    z-index: 40;
+    color: #FAFAFA;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+form label{
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-left: 10px;
+}
+form input{
+    padding: 15px 30px;
+    border-radius: 15px;
+    background-color: #131128;
+    color: #fff;
+    border: none;
+}
+#title{
+    width: 480px;
+}
+#desc,#des2{
+    width: 940px;
+}
+#NOD{
+    width: 480px;
+}
+#NOE,#NOW,#dur,#tokenNet{
+    width: 160px;
+}
+#tokenName{
+    width: 385px;
+}
+.layer2{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+#submit{
+    border: none;
+    padding: 18px 36px;
+    font-size: 22px;
+    line-height: 26px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #BB4343 3.16%, #4256BB 173.39%);
+    color: white;
+    font-family:'Work Sans', sans-serif;
+    width: 290px;
+}
+#back{
+    padding: 18px 36px;
+    font-size: 22px;
+    line-height: 26px;
+    border-radius: 30px;
+    /* background: linear-gradient(180deg, #BB4343 3.16%, #4256BB 173.39%); */
+    border: 1px solid #BB4343;
+    color: white;
+    font-family:'Work Sans', sans-serif;
+    width: 190px;
+}
+.formBtns{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-right: 10rem;
+}

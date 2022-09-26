@@ -1,0 +1,280 @@
+@font-face {
+    font-family: Hanson;
+    src: url(./fonts/Hanson-Bold_28ef9370662e758bd08e61f45c3c69b8.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+    background: #1B1934;
+    max-width: 1440px;
+    margin: auto;
+}
+#logo{
+    width: 230px;
+}
+section, nav{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+.wallet{
+    margin-left: 2rem;
+    border: none;
+    padding: 18px 36px;
+    font-size: 22px;
+    line-height: 26px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #BB4343 3.16%, #4256BB 173.39%);
+    color: white;
+    font-family:'Work Sans', sans-serif;;
+}
+.wallet:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.wallet:active{
+    transform: translateY(5px);
+}
+.mainPage{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding-top: 7.5rem;
+     padding-bottom: 7.5rem;
+     /* height: 60.5vh; */
+     /* border: 1px solid; */
+     margin: auto;
+     gap: 1.3rem;
+     color: white;
+}
+.mainPage div{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.mainPage h1{
+    font-family: Hanson;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+    width: 1031px;
+}
+.mainPage h1::after{
+    content: 'Crypto';
+    font-family: Hanson;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #b3454c;
+}
+.mainPage p{
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    width: 456px;
+    padding-bottom: .5rem;
+}
+.explore{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #b3454c;
+    padding: 18px 36px;
+    border-radius: 30px;
+    border: 1px solid #b3454c;
+}
+footer small{
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+}
+footer h1{
+    font-family: Hanson;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: center;
+}
+footer h5{
+    font-family: Hanson;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+}
+footer{
+    background: #BCBCBC;
+    color: #fff;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-bottom: 10px;
+    padding-top: 2rem;
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    text-align: left;
+}
+.connectWallet{
+    border: 1px solid;
+    width: 580px;
+    background-color: #131128;
+    padding: 40px 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 7.2rem;
+    right: 10.5rem;
+}
+#connectWallet ul{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#connectWallet li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* justify-content: center; */
+    padding: 25px 36px;
+    background-color: #1b1834;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#connectWallet li:hover{
+    opacity: 0.5;
+}
+#connectWallet li:active{
+    transform: translateY(10px);
+}
+#connectWallet li img{
+    width: 33px;
+    margin-right: 20px;
+}
+#connectWallet li p{
+    width: 194px;
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+}
+#connectWallet li small{
+    width: 194px;
+    color: #b3454c;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: right;
+}
+#metamask{
+    display: flex;
+    flex-direction: column;
+    color:#fff;
+    justify-content: center;
+    align-items: center;
+}
+#metamask label{
+    width: 430px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #BB4343 3.16%, #4256BB 173.39%);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#metamask a{
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+}
+#metamask p{
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#metamask small::before{
+    content: 'Or';
+    color: #fff;
+}
+#metamask small{
+    color: #b3454c;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+#metamask input{
+    width: 430px;
+    padding: 5px 30px;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    background-color: #1b1834;
+    border: 0.3px solid #fff;
+    color: #fff;
+    font-size: 32px;
+}
+#mmimg{
+    width: 140px;
+    background: #EFC58E;
+    padding: 30px;
+    border-radius: 100px;
+    margin-bottom: 1rem;
+}
+#poly1{
+    position: absolute;
+    top: -1.3rem;
+    right: 4rem;
+}
+#unlock:hover{
+    opacity: 0.5;
+}
+#unlock:active{
+    transform: translateY(7px);
+}
+#showpw{
+    position: absolute;
+    right: 6.3rem;
+    bottom: 11.3rem;
+}
+

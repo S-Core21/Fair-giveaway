@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: hanson;
+    src: url(./fonts/Hanson-Bold_28ef9370662e758bd08e61f45c3c69b8.otf);
+}
+body{
+    background: #1B1934;
+    max-width: 1440px;
+    margin: auto;
+}
+#logo{
+    width: 230px;
+}
+nav{
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    margin-right: 1rem;
+}
+a{
+    text-decoration: none;
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 20px 5px 5px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: #2A2748;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #fff;
+    list-style: none;
+}
+#avatar{
+    border-radius: 50%;
+}
+section{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+main, div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+}
+p{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+input{
+    width: 404px;
+    border-radius: 15px;
+    padding: 15px 30px;
+    background-color: #131128;
+    color: #fff;
+    border: none;
+}
+label{
+    font-family: Work Sans;
+    font-size: 26px;
+    font-weight: 600;
+}
+#proceed{
+    float: right;
+    width: 196px;
+    border-radius: 30px;
+    padding: 18px 36px;
+    background: linear-gradient(180deg, #BB4343 3.16%, #4256BB 173.39%);
+    font-size: 20px;
+    margin-right: 7rem;
+    margin-top: 1rem;
+}
+#PersonalID{
+    font-size: 20px;
+    font-family: Work Sans;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#GiveawayID{
+    font-size: 20px;
+    font-family: Work Sans;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#title{
+    font-family: hanson;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 19px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="createdsuccessfully.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <img src="./images/Vector.svg" alt="">
+        <ul>
+            <li>
+                <img src="./images/avatar.png" alt="" id="avatar">
+                <p>0xe23....53ef</p>
+                <img src="./images/arrdown.svg" alt="">
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <main>
+        <img src="./images/rocket.png" alt="">
+        <h1>
+            You Have Successfully Created a Giveaway
+        </h1>
+        <p>
+            You have successfully created a giveaway. Description : ' <span id="title"> </span> '
+        </p>
+    </main>
+    <form action="/creatordata" method="post">
+        <div>
+            <label for="PersonalID">Personal-ID:</label>
+            <input type="text" id="PersonalID" name="PersonalID" readonly> <br>
+        </div>
+        <div>
+            <label for="GiveawayID">Giveaway-ID:</label>
+            <input type="text" id="GiveawayID" name="GiveawayID" readonly>
+        </div>
+        <input type="submit" value="Done" id="proceed" >
+    </form>
+    </section>
+</body>
+<script src="ls2.js"></script>
+<script src="ls3.js"></script>
+</html>
